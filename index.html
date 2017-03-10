@@ -67,8 +67,8 @@ $(document).ready(function(){
                 <div class="col-lg-12">
 <div class="intro-text">
                         <span class="name">Access Code?<br>
-                            <input type="text" value="KJ77Gv" maxlength="7" style="width:50%" id="input"> 
-       <button type="button" id="button">Go</button>
+                            <input type="text" value="" maxlength="7" style="width:50%" id="input"> 
+                            <button type="button" id="button">Go</button><a href="http://goo.gl/KJ77Gv">TEST</a>
                             
            </span>                                         
 
@@ -80,39 +80,47 @@ $(document).ready(function(){
     </header>
 
 
-    <!-- Footer -->
+<!-- Footer -->
     <footer class="text-center">
         <div class="footer-above">
             <div class="container">
                 <div class="row">
                     <div class="footer-col col-md-12">
-                         <h4>Implementation</h4><br>
+<h4>About Secure Quiz App</h4><br>
+Developed by Eric Unangst | Twitter: @unangst<br><br>
                         
-                        1.  Block this site.<br>
-                        2.  Allow staff to access this site via your filter override procedures.<br>
-                    
+<h4>Tech Theory</h4><br>
                         
-                        <h4>Tech Theory</h4><br>
+Purpose:  Provide schools with a secure testing environment on Chromebooks.<br><br>
                         
-                        With the increasing number of web sites transitioning to serve content over secure (https:) connections <br> 
-                        (now including YouTube.com, Google.com, Pandora.com, etc.), many organizations need a benign web page to indicate <br>
-                        when a filter has been bypassed successfully.
+When deployed in kiosk mode, this app: <br>
+- prevents the loading any additional tabs <br>
+- prevents viewing page source / answers shown in source code <br><br>
                         
-                        <br><br>
-                       
-                        We recommend that you block this site and direct your users to visit FilterOverride.com<br> 
-                        to bypass your organization's web filter via a block page of your choosing.  After doing so, they'll see a "Congrats!" type message, <br>
-                        indicating a successful authentication / bypass / override of your web filter.
-                  
-                        <br><br>
-                        FilterOverride.com is permanently hosted via http:// on Github and should have limited downtime.<br>
+                         <h4>Setup</h4><br>
+                        
+Teacher setup: Create a Google Form and generate a go.gl url to use as the access code.
+Admin Setup: Contact your school's GSuite Administrator and have them deploy this app in kiosk mode.<br><br>
+
+                        <h4>Student Use</h4><br>
+                        
+Teachers provide students with access to a Google Form (aka "quiz") via a 
+                        
+                        <h4>Generating an Access Code</h4><br>
+                        To generate an access code, visit goo.gl and generate a shortened url pointing to your Google Form.<br>
+                        The last 6 characters of that url (directly following the last slash after goo.gl/) is the access code.<br>
+                        For example, the access code for the url https://goo.gl/KJ77Gv would be KJ77Gv.<br>
+                        That's it.<br><br>
+
+<br><br>
+
+                        SecureQuiz.com is permanently hosted on Github and should have limited downtime.<br>
                         
                         <h4>Disclaimers</h4><br>
                         
                         We use GitHub and Google Analytics for optimization purposes.<br>
                         Life is short.  Unplug whenever you can.  People first. Peace.<br>
                         Reach out if you'd like to collaborate.<br>
-                        
                         
                     </div>
                 </div>
@@ -123,7 +131,7 @@ $(document).ready(function(){
                 <div class="row">
                     <div class="col-lg-12">
                         Quis custodiet ipsos custodes?<br>
-                        Made by Eric @<a href="http://www.twitter.com/unangst">Unangst</a>, hosted by <a href="https://github.com">Github</a>.
+                        Made by Eric Unangst | @Unangst</a>, hosted by Github<.
                     </div>
                 </div>
             </div>
