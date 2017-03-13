@@ -179,7 +179,7 @@ header img {
     display: block;
     font-weight: 700;
     font-size: 5em;
-    margin-bottom: 1em;
+    margin-bottom: .25em;
 }
 
 header .intro-text .skills {
