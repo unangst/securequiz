@@ -95,6 +95,17 @@ hr.check-square-o:after {
     padding: 0 .25em
 }
 
+hr.lock {
+    content: "\f023";
+    font-family: FontAwesome;
+    display: inline-block;
+    color: #fff
+    position: relative;
+    top: -.8em;
+    font-size: 3em;
+    padding: 0 .25em
+}
+
 .navbar-custom, header .intro-text .name {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase
