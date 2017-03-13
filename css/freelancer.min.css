@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700
 }
 
-hr.star-light, hr.star-primary, hr.check-square-o {
+hr.star-light, hr.star-primary, hr.check-square-o, hr.lock {
     padding: 0;
     border: none;
     border-top: solid 5px;
@@ -65,7 +65,17 @@ hr.check-square-o:after {
     padding: 0 .25em
 }
 
-hr.star-light, hr.star-primary, hr.check-square-o {
+hr.lock:after {
+    content: "\f023";
+    font-family: FontAwesome;
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    font-size: 3em;
+    padding: 0 .25em
+}
+
+hr.star-light, hr.star-primary, hr.check-square-o, hr.lock {
     padding: 0;
     border: none;
     border-top: solid 5px;
