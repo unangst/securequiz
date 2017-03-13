@@ -251,6 +251,7 @@
 }
 .fa-clock-o:before {
   content: "\f017";
+  color: #ffffff;
 }
 .fa-road:before {
   content: "\f018";
