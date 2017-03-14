@@ -73,7 +73,8 @@ $(document).ready(function(){
 alt="SecureQuiz.com" />
         View in App Store</a> 
         </div>
-                
+            </div>
+        </div>
             </div>
         </div>
 
@@ -87,45 +88,59 @@ alt="SecureQuiz.com" />
             <div class="container">
                 <div class="row">
                     <div class="footer-col col-md-12">
-<h4>About Secure Quiz App</h4><br>
-Developed by Eric Unangst | Twitter: @unangst<br><br>                                          
+<h4>About</h4><br>
                         
-<h4>Tech Theory</h4><br>
-                        
-Teachers often struggle with using Google Forms as a review, quiz or testing platform as students readily have access to load a second tab or instance of Chrome.
-The SecureQuiz App restricts student ability to do so and offers a more secure test environment for Google Forms via kiosk mode.<br><br>
+Teachers often struggle when they use try to use Google Forms as a quiz or testing platform.  It seems that 
+                        many students have figured out they can use the platform to 'cheat' - either viewing the answers by 
+                        viewing the source code, loading a second tab or instance of Chrome, sending a link to the resource to 
+                        a student elsewhere or other method(s) developed by the 'student hivemind'.  The SecureQuiz App 
+                        provides a secure environment for testing on Chromebooks via kiosk mode.<br><br>
                         
 When deployed in kiosk mode, this app: <br>
 - prevents the loading any additional tabs or a second web browser <br>
 - prevents viewing page source / answers shown in source code <br>
-- displays a lime green bar at the top of the screen at all times &amp; providing visual verification that Secure Quiz is Active.<br><br>
-                        
-                         <h4>Setup</h4><br>
-                        
-Teacher setup: Create a Google Form and generate a go.gl url to use as the access code.<br>
-(Chrome user?  Check out the "goo.gl URL Shortener" in the Chrome App Store).<br>
-Admin Setup: Your school's GSuite Administrator will need to deploy this app to managed Chromebooks in kiosk mode.<br><br>
+- displays a lime green bar at the top of the screen at all times &amp; providing visual verification that Secure Quiz is Active.<br>
+- provides quick access to a Google Form (or any other web site) via an obsfucated 'access code'. <br><br>
+                                         
+<h4>Teacher Use</h4><br>                        
+Teacher setup: Create a Google Form and generate a goo.gl url shortcut to use as the access code.<br>
+(Chrome user?  Check out the "<a href="https://goo.gl/ygGS6">goo.gl URL Shortener</a>" in the Chrome App Store).<br><br>
 
-                        <h4>Student Use</h4><br>
+<h4>Generating an Access Code</h4><br>
+To generate an access code, visit goo.gl and generate a shortened url pointing to your Google Form.<br>
+The last 6 characters of that url (directly following the last slash after goo.gl/) is the access code.<br>
+For example, the access code for the url https://goo.gl/KJ77Gv would be KJ77Gv.<br>
+That's it.<br><br>
                         
-Teachers provide students with access to a Google Form (aka "quiz") via a 
+<h4>Technical Setup</h4><br>
+Admin setup: Your school's GSuite Administrator will need to deploy this app to managed Chromebooks via kiosk mode.<br>
+This Chromebook App has been deployed to thousands of Chromebooks across multiple school districts.<br>
+Uptime - SecureQuiz.com is permanently hosted on <a href="https://github.com/unangst/securequiz.com">GitHub</a> and should have limited downtime.<br>
                         
-                        <h4>Generating an Access Code</h4><br>
-                        To generate an access code, visit goo.gl and generate a shortened url pointing to your Google Form.<br>
-                        The last 6 characters of that url (directly following the last slash after goo.gl/) is the access code.<br>
-                        For example, the access code for the url https://goo.gl/KJ77Gv would be KJ77Gv.<br>
-                        That's it.<br><br>
-
-<br><br>
-
-                        SecureQuiz.com is permanently hosted on Github and should have limited downtime.<br>
+<h4>Student Use</h4><br>                 
+Teachers instuct students to sign out of their Chromebooks and launch the "Secure Quiz App" via the "Apps" button on the login screen. 
+                        Students use the provided 'access code' to load the corresponding quiz or test. Upon completion, students 
+                        can proceed to a second quiz or exit the app. <br><br>
+                        
+<h4>Can I Test It First?</h4><br>                 
+Absolutely!  Check out the <a href="http://www.securequiz.com/v1">Secure Quiz Preview</a> to kick the tires first.<br>
+                        Please note, this preview does not provide the provide the afforementioned "secure" features and is primarily 
+                        just a means to check how an 'access code' / goo.gl url functions in priciple.<b>
+                        We have diliberatly chosen to not create an app version which runs outside of kiosk mode. ;)<br>
+                        
+                        <br><br>
+                        
+<h4>Costs</h4><br>
+The SecureQuiz.com App is free - share what's good. Ideas? Let's collaborate!<br><br>
+                        
+<h4>Fun Fact</h4><br>
+A working prototype for the Secure Quiz App was coded, tested and deployed to the Google App Store during a really long conference call.<br><br>
+                   
                         
                         <h4>Disclaimers</h4><br>
-                        We recommend using unique quizzes for each class and disabling Google forms when not in use.<br>
+                        Use common sense, provide unique quizzes for each class and disable Google Forms when not in use.<br>
                         We use GitHub and Google Analytics for optimization purposes.<br>
-                        Life is short.  Unplug whenever you can.  People first. Peace.<br>
-                        Reach out if you'd like to collaborate.<br>
-                        
+                        Life is short - unplug when you can. People first. Peace.<br>                        
                     </div>
                 </div>
             </div>
@@ -134,8 +149,7 @@ Teachers provide students with access to a Google Form (aka "quiz") via a
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Quis custodiet ipsos custodes?<br>
-                        Made by Eric Unangst | @Unangst</a>, hosted by Github<.
+                        Made by Eric Unangst | <a href="http://twitter.com/unangst">@Unangst</a>
                     </div>
                 </div>
             </div>
