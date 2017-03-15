@@ -53,7 +53,7 @@ hr.star-light:after, hr.star-primary:after {
     padding: 0 .25em
 }
 
-}
+
 
 hr.check-square-o:after {
     content: "\f046";
@@ -183,8 +183,8 @@ header img {
 }
 
 header .intro-text .skills {
-    font-size: 1.25em;
-    font-weight: 300
+    font-size: 1.00em;
+    font-weight: 200
 }
 
 @media (min-width:768px) {
