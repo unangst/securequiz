@@ -177,8 +177,8 @@ header img {
 
 .name {
     display: block;
-    font-weight: 500;
-    font-size: 3em;
+    font-weight: 200;
+    font-size: 1.25em;
     margin-bottom: .25em;
 }
 
@@ -193,7 +193,7 @@ header .intro-text .skills {
         padding-bottom: 100px
     }
     .name {
-        font-size: 3em;
+        font-size: 1.25em;
         font-weight:bold;
     }
 
