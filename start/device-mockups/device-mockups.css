@@ -87,7 +87,7 @@
 
 /* chromebook */
 .device-mockup.chromebook {
-	padding-bottom: 51.230769%;
+	padding-bottom: 81.230769%;
 }
 
 .device-mockup.chromebook > .device {
@@ -95,10 +95,8 @@
 }
 
 .device-mockup.chromebook > .device > .screen {
-  top: 7.893485496909178%; left: 12.731351654514864%; width: 74.14469994391474%; height: 71.2791250594389%;
+	top: 8.20707071%; bottom: 31.6919192%; left: 6.61538462%; right: 6.61538462%;
 }
-/* 	top: 8.20707071%; bottom: 31.6919192%; left: 6.61538462%; right: 6.61538462%;*/
-
 
 
 /* MacBook Pro */
