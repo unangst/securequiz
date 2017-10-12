@@ -1157,7 +1157,7 @@
 }
 .device[data-device="Chromebook"][data-orientation="portrait"][data-color="black"] {
   padding-bottom: 58.97363993269771%;
-  background-image: url("../device-mockups/chromebook/portrait_black.png");
+  background-image: url("../chromebook/portrait_black.png");
 }
 .device[data-device="Chromebook"][data-orientation="portrait"][data-color="black"] .screen {
   top: 7.893485496909178%;
