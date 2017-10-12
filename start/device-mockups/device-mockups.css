@@ -98,6 +98,19 @@
 	top: 8.20707071%; bottom: 31.6919192%; left: 20%; right: 20%;
 }
 
+/* chromebook1 */
+.device-mockup.chromebook1 {
+	padding-bottom: 31.230769%;
+}
+
+.device-mockup.chromebook1 > .device {
+	background-image: url("chromebook/G5.png");
+}
+
+.device-mockup.chromebook1 > .device > .screen {
+	top: 3.20707071%; bottom: 3.6919192%; left: 20%; right: 20%;
+}
+
 
 /* MacBook Pro */
 .device-mockup.macbook {
