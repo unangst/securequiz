@@ -1155,17 +1155,17 @@
   width: 7.801418439716312%;
   height: 4.925373134328359%;
 }
-.device[data-device="Chromebook"][data-orientation="portrait"][data-color="black"] {
+.device[data-device="chromebook"][data-orientation="portrait"][data-color="black"] {
   padding-bottom: 58.97363993269771%;
-  background-image: url("http://securequiz.com/start/device-mockups/chromebook/portrait_black.png");
+  background-image: url("../device-mockups/chromebook/portrait_black.png");
 }
-.device[data-device="Chromebook"][data-orientation="portrait"][data-color="black"] .screen {
+.device[data-device="chromebook"][data-orientation="portrait"][data-color="black"] .screen {
   top: 7.893485496909178%;
   left: 12.731351654514864%;
   width: 74.14469994391474%;
   height: 71.2791250594389%;
 }
-.device[data-device="Chromebook"][data-orientation="portrait"][data-color="black"] .button {
+.device[data-device="chromebook"][data-orientation="portrait"][data-color="black"] .button {
   display: none;
   top: 0%;
   left: 0%;
