@@ -104,7 +104,7 @@
 }
 
 .device-mockup.chromebook1 > .device {
-	background-image: url("chromebook/G5.png");
+	background-image: url("https://raw.githubusercontent.com/unangst/securequiz.com/master/img/securequiz.gif");
 }
 
 .device-mockup.chromebook1 > .device > .screen {
