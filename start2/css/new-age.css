@@ -277,12 +277,12 @@ footer {
         text-decoration: none; }
 
 .bg-primary {
-  background: #fdcc52;
-  background: -webkit-linear-gradient(#fdcc52, #fdc539);
+  background: #52abfd;
+  background: -webkit-linear-gradient(#52abfd, #fdc539);
   background: linear-gradient(#fdcc52, #fdc539); }
 
 .text-primary {
-  color: #fdcc52; }
+  color: #52abfd; }
 
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -295,7 +295,7 @@ footer {
   .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
     color: white;
     border-color: #fdcc52;
-    background-color: #fdcc52; }
+    background-color: #52abfd; }
 
 .btn {
   border-radius: 300px;
