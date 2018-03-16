@@ -90,6 +90,21 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 mx-auto">
+		  
+		  <div class="clock"></div>
+
+<script type="text/javascript">
+	var clock = $('.counter').FlipClock(60000, {
+		clockFace: 'Counter'
+	});
+
+	setTimeout(function() {
+		setInterval(function() {
+			clock.increment();
+		}, 1000);
+	});
+</script> Quizzes To Date
+		  
             <h2 class="section-heading">Reduce cheating. Increase test integrity.</h2>
             <p>When deployed on Chromebooks in kiosk mode: </p>
 <p>- SecureQuiz prevents loading of additional tabs or second browser </p>
