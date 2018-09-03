@@ -7,7 +7,7 @@ var prefix="Quizzes given: ";
     countNum: countTo
     },
     {
-    duration: 5000,
+    duration: 2500,
     easing:'linear',
     step: function() {
     $this.text(prefix + Math.floor(this.countNum));
