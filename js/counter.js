@@ -1,26 +1,19 @@
 var suffix="+";
-$('.counter').each(function() {
-  var $this = $(this),
-      countTo = $this.attr('data-count');
-  
-  $({ countNum: $this.text()}).animate({
+     var prefix="%";
+    $('.counter').each(function() {
+    var $this = $(this),
+    countTo = $this.attr('data-count');  
+    $({ countNum: $this.text()}).animate({
     countNum: countTo
-  },
-
-  {
-
-    duration: 8000,
+    },
+    {
+    duration: 5000,
     easing:'linear',
     step: function() {
-      $this.text(Math.floor(this.countNum + suffix ));
+    $this.text(suffix+Math.floor(this.countNum)+ prefix);
     },
     complete: function() {
-      $this.text(this.countNum + suffix );
-      //alert('finished');
+    $this.text(suffix+this.countNum + suffix );
     }
-
-  });  
-  
-  
-
-});
+    });  
+    });
