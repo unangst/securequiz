@@ -1,5 +1,5 @@
-var suffix="";
-     var prefix="Quizzes given: ";
+var suffix="Quizzes given: ";
+var prefix="Quizzes given: ";
     $('.counter').each(function() {
     var $this = $(this),
     countTo = $this.attr('data-count');  
@@ -13,7 +13,7 @@ var suffix="";
     $this.text(prefix + Math.floor(this.countNum));
     },
     complete: function() {
-    $this.text(prefix + this.countNum);
+    $this.text(suffix + this.countNum);
     }
     });  
     });
