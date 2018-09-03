@@ -25,7 +25,17 @@
 
     <!-- Custom styles for this template -->
     <link href="http://securequiz.com/start2/css/new-age.min.css" rel="stylesheet">
-
+    <!-- Quiz counter -->  
+  <script src="..js/counter.js"></script>
+  <script>
+    jQuery(document).ready(function( $ ) {
+        $('.counter').counterUp({
+            delay: 10,
+            time: 1000
+        });
+    });
+  </script>
+	  
   </head>
 
   <body id="page-top">
