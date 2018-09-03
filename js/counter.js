@@ -1,3 +1,4 @@
+var suffix="+ quizzes";
 $('.counter').each(function() {
   var $this = $(this),
       countTo = $this.attr('data-count');
@@ -14,7 +15,7 @@ $('.counter').each(function() {
       $this.text(Math.floor(this.countNum));
     },
     complete: function() {
-      $this.text(this.countNum);
+      $this.text(this.countNum + suffix );
       //alert('finished');
     }
 
