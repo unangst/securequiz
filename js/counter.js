@@ -10,7 +10,7 @@ var suffix="";
     duration: 5000,
     easing:'linear',
     step: function() {
-    $this.text(suffix+Math.floor(this.countNum)+ prefix );
+    $this.text( prefix + suffix+Math.floor(this.countNum));
     },
     complete: function() {
     $this.text(suffix+this.countNum);
