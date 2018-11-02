@@ -37,6 +37,12 @@
 <script type="text/javascript">
 
 $(document).ready(function(){
+    
+        $('#input').keyup(function(){
+        var s= $(this).val();
+        if (s.indexOf("GOOGLE") != -1)
+            window.location.replace(" http://securequiz.com/404");
+    });
 
     $('#button').click(function(e) {  
         var inputvalue = $("#input").val();
@@ -87,7 +93,7 @@ $(document).ready(function(){
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        SecureQuiz.com | API v1.7 | App v6.0.4.17<br>
+                        SecureQuiz.com | API v1.8 | App v11.1.18<br>
                         &copy; <script type="text/javascript">  document.write(new Date().getFullYear()); </script><br>
                         Handcrafted by Eric @Unangst 
                     </div>
