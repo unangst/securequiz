@@ -133,12 +133,12 @@ hr.check-square-o {
 }
 
 hr.star-primary {
-    border-color: #b92ab3
+    border-color: #d93132
 }
 
 hr.star-primary:after {
     background-color: #fff;
-    color: #2a7ab9
+    color: #d93132
 }
 
 .navbar-custom .navbar-brand, .navbar-custom .navbar-brand.active, .navbar-custom .navbar-brand:active, .navbar-custom .navbar-brand:focus, .navbar-custom .navbar-brand:hover, .navbar-custom .navbar-nav li a, header {
